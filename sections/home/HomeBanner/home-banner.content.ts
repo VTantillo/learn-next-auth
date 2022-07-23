@@ -3,5 +3,5 @@ export type HomeBannerContent = {
 }
 
 export const HOME_BANNER_CONTENT = {
-  heading: 'Get to hacking!',
+  heading: 'Home page',
 }
