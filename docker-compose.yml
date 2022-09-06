@@ -1,0 +1,7 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=NextAuth
+      - MONGO_INITDB_ROOT_PASSWORD=pass
